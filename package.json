@@ -1,0 +1,53 @@
+{
+  "name": "ses1-app",
+  "version": "1.0.0",
+  "description": "test-app",
+ 
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elsesu/elsesu"
+  },
+  "keywords": [
+    "start",
+    "heroku",
+    "express"
+  ],
+  "author": "sesu asa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsesu/elsesu/issues"
+  },
+  "homepage": "https://github.com/elsesu/elsesu#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-ejs-layouts": "^2.5.1",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "mongoose": "^5.12.14",
+    "path": "^0.12.7",
+    "pg": "^8.6.0",
+    "winston": "^3.3.3"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  },
+  "devDependencies": {
+    "flag": "^4.4.0",
+    "got": "^11.8.2",
+    "tape": "^5.2.2"
+  }
+}
