@@ -16,7 +16,7 @@ const pool = new Pool({
 });
 
 app = express()
-//require('./startup/config')();
+require('./startup/config')();
 require('./startup/db');
 //require('./startup/logging')();
 require('./startup/validations');
