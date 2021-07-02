@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+/*const mongoose = require('mongoose');
 const winston = require('winston');
 
 module.exports=()=>{
@@ -8,4 +8,4 @@ module.exports=()=>{
         useFindAndModify:true,
         useCreateIndex:true
     }).then(()=> winston.info('MongoDb connected succesfully...'));
-}
+}*/
