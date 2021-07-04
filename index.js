@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const expressLayoutes = require('express-ejs-layouts');
 const bodyParser = require('body-parser');
-
+const cors = require('cors')
 const error = require('./middleware/error');
 const winston = require('winston')
 const customerRoutes = require('./routes/customer-routes');
@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(customerRoutes.routes);
   app.use(expressLayoutes);
   app.use(customerRoutes.routes);
-  
+  app.use(cors());
 app.use(expressLayoutes);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'))
